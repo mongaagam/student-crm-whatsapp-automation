@@ -1,0 +1,66 @@
+
+========================================
+TIMESTAMP: 2026-05-21T18:29:00.028Z
+TO: admin@educationcompany.com
+SUBJECT: [Student CRM] Daily Performance Report - 5/21/2026
+----------------------------------------
+BODY:
+
+      <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 8px; background-color: #fcfcfc;">
+        <h2 style="color: #2c3e50; text-align: center; border-bottom: 2px solid #3498db; padding-bottom: 10px;">Executive CRM Daily Summary</h2>
+        
+        <p style="font-size: 15px; color: #555;">Here is the daily performance dashboard summary for your admissions funnel as of <b>5/21/2026</b>:</p>
+        
+        <div style="margin: 20px 0; background-color: #ecf0f1; padding: 15px; border-radius: 6px;">
+          <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+            <tr>
+              <td style="padding: 6px 0; font-weight: bold; color: #2c3e50;">Total Managed Leads:</td>
+              <td style="text-align: right; font-weight: bold; color: #2c3e50;">1</td>
+            </tr>
+            <tr>
+              <td style="padding: 6px 0; color: #27ae60; font-weight: bold;">Converted Students:</td>
+              <td style="text-align: right; color: #27ae60; font-weight: bold;">0 (0.0%)</td>
+            </tr>
+            <tr>
+              <td style="padding: 6px 0; color: #e67e22;">Active Follow-ups:</td>
+              <td style="text-align: right; color: #e67e22;">0</td>
+            </tr>
+            <tr>
+              <td style="padding: 6px 0; color: #3498db;">New Inbound Leads:</td>
+              <td style="text-align: right; color: #3498db;">0</td>
+            </tr>
+            <tr>
+              <td style="padding: 6px 0; color: #95a5a6;">Lost Leads:</td>
+              <td style="text-align: right; color: #95a5a6;">0</td>
+            </tr>
+          </table>
+        </div>
+
+        <h3 style="color: #2c3e50; font-size: 16px; border-left: 4px solid #3498db; padding-left: 8px;">Top Active Lead Demographics</h3>
+        <table style="width: 100%; border-collapse: collapse; font-size: 13px; margin: 10px 0;">
+          <tr style="background-color: #f2f2f2;">
+            <th style="text-align: left; padding: 8px; border: 1px solid #ddd;">Country</th>
+            <th style="text-align: right; padding: 8px; border: 1px solid #ddd;">Lead Count</th>
+          </tr>
+          
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ddd;">India</td>
+              <td style="text-align: right; padding: 8px; border: 1px solid #ddd;">1</td>
+            </tr>
+          
+        </table>
+
+        
+          <h3 style="color: #2c3e50; font-size: 16px; border-left: 4px solid #27ae60; padding-left: 8px; margin-top: 20px;">Leads Added Today</h3>
+          <ul style="font-size: 13px; color: #555; padding-left: 20px;">
+            <li><b>Agam</b> (India) - BTech CSE - <i>Status: undefined</i></li>
+          </ul>
+        
+
+        <p style="font-size: 12px; color: #888; text-align: center; margin-top: 30px; border-top: 1px dashed #e0e0e0; padding-top: 15px;">
+          This is an automated system generated report from your AI Student CRM.
+        </p>
+      </div>
+    
+========================================
+
