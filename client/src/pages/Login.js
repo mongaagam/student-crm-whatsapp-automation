@@ -100,7 +100,7 @@ const Login = () => {
             A
           </div>
           <h2 className="text-2xl font-extrabold text-white tracking-tight">
-            ANTIGRAVITY<span className="text-indigo-400 font-normal text-sm ml-0.5">CRM</span>
+            EDOOFA CRM<span className="text-indigo-400 font-normal text-sm ml-0.5">CRM</span>
           </h2>
           <p className="text-gray-400 text-xs mt-1 text-center font-medium max-w-[280px]">
             AI-Powered Admissions Command Center & Automated WhatsApp Hub

@@ -62,7 +62,7 @@ const Navbar = () => {
                 A
               </div>
               <span className="font-extrabold text-xl tracking-tight text-white group-hover:opacity-95 transition-opacity">
-                ANTIGRAVITY<span className="text-indigo-400 font-semibold text-sm ml-0.5">CRM</span>
+                EDOOFA CRM<span className="text-indigo-400 font-semibold text-sm ml-0.5">CRM</span>
               </span>
             </Link>
           </div>
