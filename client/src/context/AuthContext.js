@@ -53,25 +53,39 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const login = async (email, password) => {
-    const response = await API.post('/auth/login', { email, password });
-    if (response.data?.success) {
-      const { token, data } = response.data;
-      localStorage.setItem('crm_token', token);
-      setUser(data);
-      return { success: true };
+    try {
+      const response = await API.post('/auth/login', { email, password });
+      if (response.data?.success) {
+        const { token, data } = response.data;
+        localStorage.setItem('crm_token', token);
+        setUser(data);
+        return { success: true };
+      }
+      return { success: false, message: response.data?.message || 'Login failed' };
+    } catch (err) {
+      return {
+        success: false,
+        message: err.response?.data?.message || err.message || 'Login failed'
+      };
     }
-    return { success: false, message: response.data?.message || 'Login failed' };
   };
 
   const register = async (name, email, password) => {
-    const response = await API.post('/auth/register', { name, email, password });
-    if (response.data?.success) {
-      const { token, data } = response.data;
-      localStorage.setItem('crm_token', token);
-      setUser(data);
-      return { success: true };
+    try {
+      const response = await API.post('/auth/register', { name, email, password });
+      if (response.data?.success) {
+        const { token, data } = response.data;
+        localStorage.setItem('crm_token', token);
+        setUser(data);
+        return { success: true };
+      }
+      return { success: false, message: response.data?.message || 'Registration failed' };
+    } catch (err) {
+      return {
+        success: false,
+        message: err.response?.data?.message || err.message || 'Registration failed'
+      };
     }
-    return { success: false, message: response.data?.message || 'Registration failed' };
   };
 
   const logout = () => {
