@@ -4,7 +4,7 @@ import axios from 'axios';
 // Axios API Instance — points to backend
 // =========================================================================
 const API = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5001/api',
+  baseURL: process.env.REACT_APP_API_URL || 'https://student-crm-whatsapp-automation.onrender.com/api',
   headers: { 'Content-Type': 'application/json' },
 });
 

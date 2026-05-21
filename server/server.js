@@ -9,8 +9,7 @@ const { initCronJobs } = require('./cron/followUpCron');
 const app = express();
 
 // Middleware
-const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:3000';
-app.use(cors({ origin: CLIENT_URL, credentials: true }));
+app.use(cors({ origin: true, credentials: true }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
