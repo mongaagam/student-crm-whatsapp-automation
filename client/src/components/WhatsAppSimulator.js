@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { stats } from '../services/api';
+import API from '../services/api';
 
 const WhatsAppSimulator = () => {
   const [logs, setLogs] = useState([]);
@@ -10,10 +10,11 @@ const WhatsAppSimulator = () => {
   const fetchLogs = async (showLoading = false) => {
     if (showLoading) setLoading(true);
     try {
-      const response = await stats.getWhatsAppLogs();
-      if (response.success && response.data) {
+      const response = await API.get('/leads/stats/whatsapp-logs');
+
+      if (response.data?.success && response.data?.data) {
         // Reverse array to put oldest at top and newest at bottom for linear chat flow
-        setLogs([...response.data].reverse());
+        setLogs([...response.data.data].reverse());
       }
     } catch (err) {
       console.error('Failed to poll WhatsApp logs:', err.message);
